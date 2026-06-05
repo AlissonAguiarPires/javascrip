@@ -1,2 +1,0 @@
-# javascrip
-urso de JavaScript
