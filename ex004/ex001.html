@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando JS</title>
+    <style>
+        div{
+            font:normal 20pt Arial;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="Cubo">Clica</div>
+    <script>
+     var a = document.getElementById('Cubo')   
+     addEventListener('click', clicar)
+     function clicar() {
+        a.innerText = 'OI'
+     }
+    </script>
+</body>
+</html>
