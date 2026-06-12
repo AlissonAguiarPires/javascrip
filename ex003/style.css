@@ -25,15 +25,20 @@ header{
 }
 main{
     background-color: var(--color2);
-   display: grid;
-   grid-template-columns: 500px ;
+    display: grid;
+    grid-template-columns: 1fr ;
     margin: 15px;
     padding: 15px;
     width: 700px;
+    overflow: hidden;
 }
 header a{
     margin: 0px  10px;
     font-size: 1.8em;
+}
+main h1{
+    text-align: center;
+    font-size: 1,3em;
 }
 main p{
     font-size: 1.3em;
