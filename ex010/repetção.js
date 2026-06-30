@@ -8,3 +8,4 @@ do {
     console.log(`Passo ${c}`)
     c++ // c = c + 1
 }while( c <= 600)
+ikmju3
