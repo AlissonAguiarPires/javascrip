@@ -5,8 +5,7 @@ function contar(){
     var res = document.getElementById('res')
     if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0 ){
        res.innerHTML = 'Faltam dados'
-        window.alert('ERRO faltam dados')
-        
+        window.alert('ERRO faltam dados') 
     }else{
         res.innerHTML = 'Contando: <br>'
         let i = Number(ini.value)
@@ -20,8 +19,6 @@ function contar(){
           for(var c = 1; c <= f; c +=p ){
             res.innerHTML += `${c} 👉`
         }  
-    
-        
         }else{
             for(let c = i; c >= f; c -=p ){
                 res.innerHTML += `${c} 👉`
