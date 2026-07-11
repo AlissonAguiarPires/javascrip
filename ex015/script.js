@@ -29,7 +29,6 @@ function adicionar(){
     num.value = ''
     num.focus()
 }
-
 function finalizar(){
     if (valores.length == 0){
         alert('Adicione valores antes de finalizar')
